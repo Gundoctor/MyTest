@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{e3a1eeda-0b28-4d9b-a13e-b28a15de72bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{e2eb5b97-2e9d-4895-b40f-df388d44e692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GL">
+      <UniqueIdentifier>{2921a34a-017d-4d7f-9218-edbf7b674a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameCore">
+      <UniqueIdentifier>{9eb2320b-5dac-4ab4-bbd7-d32a23b2c791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Event">
+      <UniqueIdentifier>{6f8843b4-73b8-4819-b79e-148c8abc811b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{b77ebf3d-2553-452a-9d25-6d4a2449f08b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{9dc6acd6-9b4e-463c-8dc8-cdb6bc996ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{ae16cb29-451a-4864-a7c5-e0f3707dbc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{82519d38-4b89-47e4-a5b8-4066ddc69e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{2fdfd981-c6f9-417c-8363-0cf9e22124c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\lodepng">
+      <UniqueIdentifier>{46279ba3-0e5a-49c7-8e1a-4dda4aa1a916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\cjson">
+      <UniqueIdentifier>{2bf4d166-132c-4616-a91f-d326f875696a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource">
+      <UniqueIdentifier>{4dbb155f-af21-4efe-b32c-a896d90c7f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graph">
+      <UniqueIdentifier>{61067768-47aa-4499-b7fe-42a152bfedba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particle">
+      <UniqueIdentifier>{37322420-9cf2-4283-8138-74cfd26f711b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SceneNode">
+      <UniqueIdentifier>{dd052b5e-3cb7-4b87-89ce-b8e20c915226}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Libraries\lodepng\lodepng.cpp">
+      <Filter>Libraries\lodepng</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\ShaderProgram.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FrameworkPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GL\GLExtensions.cpp">
+      <Filter>Source Files\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math\MyMatrix.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GL\GLHelpers.cpp">
+      <Filter>Source Files\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Helpers.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FrameworkMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameCore\GameCore.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GL\WGLExtensions.cpp">
+      <Filter>Source Files\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Event\Event.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Event\InputEvent.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Event\EventManager.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh\Mesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Scene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\Camera.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\SceneManagerBase.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision\CircleCollider.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision\Collider.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision\CollisionSystem.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Event\CollisionEvent.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\cJSON\cJSON.c">
+      <Filter>Libraries\cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resource\ResourceManager.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graph\Edge.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graph\Graph.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graph\Node.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle\ParticleRenderer.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle\ParticleSystem.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle\ParticleEmitter.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneNode\SceneNode.cpp">
+      <Filter>Source Files\SceneNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resource\ScoreDisplay.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Libraries\lodepng\lodepng.h">
+      <Filter>Libraries\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\ShaderProgram.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FrameworkPCH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\glext.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\GLExtensions.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\MathHelpers.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\MyMatrix.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Vector.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\GLHelpers.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Helpers.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FrameworkMain.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameCore\GameCore.h">
+      <Filter>Source Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\wglext.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\WGLExtensions.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Event\Event.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Event\InputEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Event\EventManager.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh\Mesh.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Scene.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject\Camera.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject\GameObject.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneManagerBase.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision\CircleCollider.h">
+      <Filter>Source Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision\Collider.h">
+      <Filter>Source Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision\CollisionSystem.h">
+      <Filter>Source Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Event\CollisionEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\cJSON\cJSON.h">
+      <Filter>Libraries\cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource\ResourceManager.h">
+      <Filter>Source Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graph\Edge.h">
+      <Filter>Source Files\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graph\Graph.h">
+      <Filter>Source Files\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graph\Node.h">
+      <Filter>Source Files\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle\ParticleRenderer.h">
+      <Filter>Source Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle\ParticleSystem.h">
+      <Filter>Source Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle\ParticleEmitter.h">
+      <Filter>Source Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneNode\SceneNode.h">
+      <Filter>Source Files\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource\ScoreDisplay.h">
+      <Filter>Source Files\Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{d07083e1-f7ab-4514-9399-0045e8656362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Main">
+      <UniqueIdentifier>{55dc1b96-bc8c-45fc-8dce-5c0ce37d9694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{d4dc2ed3-3af2-49dc-ab58-85e167601a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{88fe26c9-2a76-4701-8e99-31e64dc3f2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameObject">
+      <UniqueIdentifier>{b69d820f-4007-4624-9562-251c8122ddf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{7dcc0dfb-18b0-4131-a3e5-cc19d01c4f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Event">
+      <UniqueIdentifier>{0819b3d0-637e-4701-86ed-83113cca28e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameObject\Camera">
+      <UniqueIdentifier>{c37ef352-eded-4926-af0b-92d748c565f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameObject\Actors">
+      <UniqueIdentifier>{ef5fb4d4-320e-4d16-b1cb-43d7d4b404d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameObject\Controllers">
+      <UniqueIdentifier>{4bd4bc35-b826-4d3b-9ce6-87d2b56bf139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Spritesheet">
+      <UniqueIdentifier>{6049a83b-03e2-4f69-b284-a2091cb88072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\SaveFile">
+      <UniqueIdentifier>{d0c11009-408e-46a3-b7b8-2227941b55a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tilemap">
+      <UniqueIdentifier>{85c2be72-0d18-4781-b85c-5d51032bd6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Resource">
+      <UniqueIdentifier>{67104bc9-aae6-48f8-86dd-74a2bb277672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Pathfinder">
+      <UniqueIdentifier>{59782b37-c3c6-4916-af4c-b333100be2a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\GamePCH.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameSample.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main\WinMain.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\SceneManager.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\Controllers\PlayerController.cpp">
+      <Filter>Source\GameObject\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\Actors\Player.cpp">
+      <Filter>Source\GameObject\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\Actors\SimpleObject.cpp">
+      <Filter>Source\GameObject\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\Cameras\ControllableCamera.cpp">
+      <Filter>Source\GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\Cameras\StaticCamera.cpp">
+      <Filter>Source\GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\Controllers\CameraController.cpp">
+      <Filter>Source\GameObject\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Event\GameEvent.cpp">
+      <Filter>Source\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tilemap\Tilemap.cpp">
+      <Filter>Source\Tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\TilemapScene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resource\MyResourceManager.cpp">
+      <Filter>Source\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pathfinder\Pathfinder.cpp">
+      <Filter>Source\Pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\Actors\Enemy.cpp">
+      <Filter>Source\GameObject\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\Actors\Tower.cpp">
+      <Filter>Source\GameObject\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\Actors\Healthbar.cpp">
+      <Filter>Source\GameObject\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\Actors\Bullet.cpp">
+      <Filter>Source\GameObject\Actors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GamePCH.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameSample.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Main\WinMain.h">
+      <Filter>Source\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneManager.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject\Controllers\PlayerController.h">
+      <Filter>Source\GameObject\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject\Actors\Player.h">
+      <Filter>Source\GameObject\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject\Actors\SimpleObject.h">
+      <Filter>Source\GameObject\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject\Cameras\ControllableCamera.h">
+      <Filter>Source\GameObject\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject\Cameras\StaticCamera.h">
+      <Filter>Source\GameObject\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject\Controllers\CameraController.h">
+      <Filter>Source\GameObject\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Event\GameEvent.h">
+      <Filter>Source\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tilemap\Tilemap.h">
+      <Filter>Source\Tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\TilemapScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource\MyResourceManager.h">
+      <Filter>Source\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pathfinder\Pathfinder.h">
+      <Filter>Source\Pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject\Actors\Enemy.h">
+      <Filter>Source\GameObject\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject\Actors\Tower.h">
+      <Filter>Source\GameObject\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject\Actors\Healthbar.h">
+      <Filter>Source\GameObject\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject\Actors\Bullet.h">
+      <Filter>Source\GameObject\Actors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Data\Shaders\white.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\white.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\color.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\color.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\greyscale.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\JSON\Bomberman.json">
+      <Filter>Data\Spritesheet</Filter>
+    </None>
+    <None Include="..\Data\SaveFiles\GameplaySceneSave.json">
+      <Filter>Data\SaveFile</Filter>
+    </None>
+    <None Include="..\Data\Shaders\tex.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\tex.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\particles.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\particles.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\score.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\score.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\healthbar.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\healthbar.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Data\Textures\Bomberman.png">
+      <Filter>Data\Spritesheet</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

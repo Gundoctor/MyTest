@@ -1,0 +1,22 @@
+﻿  GamePCH.cpp
+  Tilemap.cpp
+  TilemapScene.cpp
+  SceneManager.cpp
+  MyResourceManager.cpp
+  Pathfinder.cpp
+  WinMain.cpp
+  GameSample.cpp
+  PlayerController.cpp
+  CameraController.cpp
+  StaticCamera.cpp
+  ControllableCamera.cpp
+  Tower.cpp
+  SimpleObject.cpp
+  Player.cpp
+  Healthbar.cpp
+  Enemy.cpp
+  Bullet.cpp
+  GameEvent.cpp
+  Generating Code...
+     Creating library D:\Folders\Documents\_School\Algonquin\Second Year\Game Programming\Assignments\17F_Game2\FinalProject\Output\Game\Debug\Game.lib and object D:\Folders\Documents\_School\Algonquin\Second Year\Game Programming\Assignments\17F_Game2\FinalProject\Output\Game\Debug\Game.exp
+  Game.vcxproj -> D:\Folders\Documents\_School\Algonquin\Second Year\Game Programming\Assignments\17F_Game2\FinalProject\Output\Game\Debug\Game.exe
